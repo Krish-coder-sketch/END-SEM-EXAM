@@ -1,0 +1,76 @@
+
+body {
+    background: #f2f2f2;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 300px;
+    background: white;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px gray;
+    padding-bottom: 20px;
+}
+
+.banner {
+    height: 100px;
+    background: linear-gradient(blue, purple);
+    border-radius: 15px 15px 0 0;
+}
+
+.avatar {
+    width: 90px;
+    height: 90px;
+    background: yellow;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin: -45px auto 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 10px;
+}
+
+p {
+    color: gray;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    background: #eee;
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+button {
+    background: blue;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button.following {
+    background: white;
+    color: blue;
+    border: 1px solid blue;
+}
